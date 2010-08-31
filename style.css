@@ -1,0 +1,86 @@
+body
+{
+	background: #F3F3F3;
+	margin: 0;
+	padding: 0;
+	font-family: "Lucida Grande";
+}
+#box
+{
+	width: 400px;
+	background: #fff;
+	height: 100px;
+	border: 1px solid rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	opacity: 0.9;
+	top: 50%;
+	left: 50%;
+	margin: -150px 0 0 -200px;
+	position: absolute;
+}
+#box h2
+{
+	font-size: 16px;
+	margin: 20px 0 0 20px;
+}
+#box .field
+{
+	width: 360px;
+	background: #fff;
+	margin: 10px 0 0 20px;
+	height: 25px;
+	-webkit-border-radius: 25px;
+	border: 1px solid #606060;
+	-webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+#box .field input
+{
+	padding: 2px 30px 2px 10px;
+	border: 0;
+	-webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+	height: 25px;
+	-webkit-border-top-left-radius: 25px;
+	-webkit-border-bottom-left-radius: 25px;
+	margin: 0;
+	outline: 0;
+	width: 290px;
+	float: left;
+	background: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0%, rgba(0, 0, 0, 0.1)),
+	    color-stop(100%, rgba(0, 0, 0, 0))
+	);
+}
+#box .field input.placeholder
+{
+	color: #898989;
+}
+#box .field button
+{
+	float: left;
+	background: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0%, rgba(0, 0, 0, 0.7)),
+	    color-stop(100%, rgba(0, 0, 0, 0.3))
+	);
+	border: 0;
+	font-weight: bold;
+	font-size: 11px;
+	color: #000;
+	text-shadow: 0 1px 0 #B1B1B1;
+	width: 70px;
+	padding: 5px 0 7px 0;
+	-webkit-border-top-right-radius: 25px;
+	-webkit-border-bottom-right-radius: 25px;
+	margin: 0;
+	opacity: 0.9;
+	cursor: pointer;
+}
+#box .field button:active
+{
+	opacity: 1;
+}
